@@ -1,0 +1,94 @@
+.header{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 50px;
+    background-color:rgb(20, 94, 231);
+    text-align: center;
+    color: rgb(180, 169, 121);
+    font-size: large;
+    text-shadow: rgb(160, 30, 30);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+
+}
+body {
+    background: rgb(0, 0, 0);
+}
+.footer{
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color:rgb(20, 94, 231);
+    text-align: center;
+    color: rgb(218, 207, 167);
+    font-size: large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif ;
+}
+.white{
+    float: left;
+    margin: 2px;
+    height: 533px;
+    width: 110px;
+    box-shadow: inset 0px 0px 20px 0px lightslategray;
+    cursor: pointer;
+    
+}
+.black1, .black2,.black3,.black4,.black5,.black6,.black7{
+    position: absolute;
+    height: 320px;
+    width: 55px;
+    z-index: 99;
+    margin-top: 0px;
+    margin-left: -1165px;
+    border: 1px solid black;
+    box-shadow: inset 0px 0px 10px 5px gray;
+    background: linear-gradient(to bottom, gray 0%, black 100%);
+    cursor: pointer;
+}
+.black1:active{
+    background: linear-gradient(to bottom, black 0%, gray 100%);
+}
+.black2{
+    margin-left: -1053px;
+}
+.black2:active{
+    background: linear-gradient(to bottom, black 0%, gray 100%);
+}
+.black2{
+    margin-left: -1053px;
+}
+.black2:active{
+    background: linear-gradient(to bottom, black 0%, gray 100%);
+}
+.black3{
+    margin-left: -825px;
+}
+.black3:active{
+    background: linear-gradient(to bottom, black 0%, gray 100%);
+}
+.black4{
+    margin-left: -711px;
+}
+.black4:active{
+    background: linear-gradient(to bottom, black 0%, gray 100%);
+}
+.black5{
+    margin-left: -598px;
+}
+.black5:active{
+    background: linear-gradient(to bottom, black 0%, gray 100%);
+}
+.black6{
+    margin-left: -370px;
+}
+.black6:active{
+    background: linear-gradient(to bottom, black 0%, gray 100%);
+}
+.black7{
+    margin-left: -256px;
+}
+.black7:active{
+    background: linear-gradient(to bottom, black 0%, gray 100%);
+}
